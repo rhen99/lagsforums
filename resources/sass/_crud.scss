@@ -1,0 +1,36 @@
+.create-body textarea {
+	width: 100%;
+	resize: none;
+	height: 30vh;
+	padding: .3rem;
+	font-size: .7rem;
+}
+.user-edit {
+	display: flex;
+}
+.user-edit .edit-form {
+	background-color: #fff;
+	margin: 10% auto;
+	width: 600px;
+	padding: 1rem;
+	text-align: center;
+}
+
+.edit-form img {
+	width: 300px;
+}
+.user-name input {
+	padding: .1rem;
+	font-size: .8rem;
+}
+.edit-form button {
+	margin: .3rem 0;
+}
+.profile_upload input {
+	display: none;
+}
+.profile_upload label {
+	text-decoration: underline;
+	color: #009ac0;
+	cursor: pointer;
+}
