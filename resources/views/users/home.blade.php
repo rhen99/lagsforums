@@ -15,8 +15,6 @@
                     </ul>    
                     <h2 class="user-name">{{$user->name}}</h2>
                     <div class="meta">
-                        <span> Total Upvotes: 0</span>
-                        <span>Total Downvotes: 0</span>
                         <span>Hosted Discussions: {{$user->posts->count()}}</span>
                     </div>
                 </div>
